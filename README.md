@@ -1,3 +1,7 @@
+#Live link of project
+
+https://kethan-weather-app.netlify.app/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -11,8 +15,8 @@ In the project directory, you can run:
 # Run the following commands on your terminal to install all modules used in the development process
 
 ### `npm install -D tailwindcss postcss autoprefixer`
-### `npm i --save @iconscout/react-unicons`
 ### `npx tailwindcss init -p`
+### `npm i --save @iconscout/react-unicons`
 ### `npm i luxon`
 ### `npm i react-toastify`
 ### `npm start`
