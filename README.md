@@ -56,6 +56,7 @@ Dive into Forecastify: [Live Demo](https://kethan-weather-app.netlify.app/)
 
 - ReactJS
 - JavaScript
+- Open Weather Map API
 - HTML5
 - CSS3
 
