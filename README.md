@@ -8,6 +8,14 @@ In the project directory, you can run:
 
 ### `npm start`
 
+# Run the following commands on your terminal to install all modules used in the development process
+
+### `npm install -D tailwindcss postcss autoprefixer`
+### `npm i --save @iconscout/react-unicons`
+### `npx tailwindcss init -p`
+### `npm i luxon`
+### `npm i react-toastify`
+### `npm start`
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
