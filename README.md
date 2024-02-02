@@ -59,7 +59,7 @@ Dive into Forecastify: [Live Demo](https://kethan-weather-app.netlify.app/)
 - HTML5
 - CSS3
 
-## 🙋‍♀️ Author
+## 👦Author
 
 Kethan Kumar Reddy
 ---
