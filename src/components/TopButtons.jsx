@@ -1,4 +1,5 @@
 import React from 'react'
+import './TopButtons.css'
 
 export default function TopButtons({setQuery}) {
     const cities = [
@@ -24,10 +25,11 @@ export default function TopButtons({setQuery}) {
             title:"Ahmedabad"
         }
     ]
-  return  <div className='flex items-center justify-around my-6 '>
+  return  <div id='buttons' className='flex items-center justify-around my-6'>
         {cities.map((city) =>(
-           <button key={city.id} className='text-white  font-bold drop-shadow-2xl shadow-black text-lg py-2 px-4 transition ease-out hover:text-sky-400 ' onClick={()=>setQuery({q: city.title})}>{city.title}</button>
+           <button  key={city.id} className='text-white font-bold drop-shadow-2xl shadow-black text-lg py-2 px-4 transition ease-out hover:text-sky-400' onClick={()=>setQuery({q: city.title})}>{city.title}</button>
         ))}
     </div> 
   
 }
+ 

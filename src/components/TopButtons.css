@@ -1,0 +1,17 @@
+.text-white.font-bold.drop-shadow-2xl.shadow-black.text-lg.py-2.px-4.transition.ease-out.hover\:text-sky-400 {
+     @media screen and (max-width: 732px) {
+        font-weight: normal;
+        padding-left: 2px;
+        padding-right: 2px;
+
+      }
+      
+      @media screen and (min-width: 630px) and (max-width: 731px) {
+        font-weight: light;
+
+      }
+      @media screen and (min-width: 350px) and (max-width: 599px) {
+        
+      }
+}
+  
