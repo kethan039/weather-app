@@ -1,6 +1,6 @@
 ## 🌐 Live Demo
 
-Dive into Forecastify: [Live Demo](https://kethan-weather-app.netlify.app/)
+Dive into Weather Forecast: [Live Demo](https://kethan-weather-app.netlify.app/)
 
 ## 🚀 Features
 
