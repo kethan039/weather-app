@@ -5,10 +5,6 @@ import { DateTime } from "luxon";
 const API_KEY = "2b8a69f2bdfa51f505322ee720addec7";
 const BASE_URL = "https://api.openweathermap.org/data/2.5";
 
-
-
-// https://api.openweathermap.org/data/2.5/onecall?lat=28.6128&lon=77.2311&exclude=current,minutely,hourly,alerts&appid=1fa9ff4126d95b8db54f3897a208e91c&units=metric
-
 const getWeatherData = (infoType, searchParams) => {
   const url = new URL(BASE_URL + "/" + infoType);
   url.search = new URLSearchParams({ ...searchParams, appid: API_KEY });
@@ -107,6 +103,5 @@ const iconUrlFromCode = (code) =>
   export default getFormattedWeatherData;
 
 export { formatToLocalTime,iconUrlFromCode };
-
 
 
