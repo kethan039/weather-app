@@ -59,6 +59,7 @@ Dive into Weather Forecast: [Live Demo](https://kethan-weather-app.netlify.app/)
 - Open Weather Map API
 - HTML5
 - CSS3
+- Tailwind CSS
 
 ## 👦Author
 
